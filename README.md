@@ -5,2081 +5,350 @@ Las comunas se encuentran en formato json y sql para que puedan ser utilizadas p
 
 # comunas en html
 
-	<table border="1">
-		<tr>
-			<td>id</td>
-			<td>region_id</td>
-			<td>codigo</td>
-			<td>nombre</td>
-		</tr>
-		<tr>
-			<td>1101</td>
-			<td>1</td>
-			<td>1101</td>
-			<td>Iquique</td>
-		</tr>
-		<tr>
-			<td>1107</td>
-			<td>1</td>
-			<td>1107</td>
-			<td>Alto&nbsp;Hospicio</td>
-		</tr>
-		<tr>
-			<td>1401</td>
-			<td>1</td>
-			<td>1401</td>
-			<td>Pozo&nbsp;Almonte</td>
-		</tr>
-		<tr>
-			<td>1402</td>
-			<td>1</td>
-			<td>1402</td>
-			<td>Camiña</td>
-		</tr>
-		<tr>
-			<td>1403</td>
-			<td>1</td>
-			<td>1403</td>
-			<td>Colchane</td>
-		</tr>
-		<tr>
-			<td>1404</td>
-			<td>1</td>
-			<td>1404</td>
-			<td>Huara</td>
-		</tr>
-		<tr>
-			<td>1405</td>
-			<td>1</td>
-			<td>1405</td>
-			<td>Pica</td>
-		</tr>
-		<tr>
-			<td>2101</td>
-			<td>2</td>
-			<td>2101</td>
-			<td>Antofagasta</td>
-		</tr>
-		<tr>
-			<td>2102</td>
-			<td>2</td>
-			<td>2102</td>
-			<td>Mejillones</td>
-		</tr>
-		<tr>
-			<td>2103</td>
-			<td>2</td>
-			<td>2103</td>
-			<td>Sierra&nbsp;Gorda</td>
-		</tr>
-		<tr>
-			<td>2104</td>
-			<td>2</td>
-			<td>2104</td>
-			<td>Taltal</td>
-		</tr>
-		<tr>
-			<td>2201</td>
-			<td>2</td>
-			<td>2201</td>
-			<td>Calama</td>
-		</tr>
-		<tr>
-			<td>2202</td>
-			<td>2</td>
-			<td>2202</td>
-			<td>Ollagüe</td>
-		</tr>
-		<tr>
-			<td>2203</td>
-			<td>2</td>
-			<td>2203</td>
-			<td>San&nbsp;Pedro&nbsp;de&nbsp;Atacama</td>
-		</tr>
-		<tr>
-			<td>2301</td>
-			<td>2</td>
-			<td>2301</td>
-			<td>Tocopilla</td>
-		</tr>
-		<tr>
-			<td>2302</td>
-			<td>2</td>
-			<td>2302</td>
-			<td>María&nbsp;Elena</td>
-		</tr>
-		<tr>
-			<td>3101</td>
-			<td>3</td>
-			<td>3101</td>
-			<td>Copiapó</td>
-		</tr>
-		<tr>
-			<td>3102</td>
-			<td>3</td>
-			<td>3102</td>
-			<td>Caldera</td>
-		</tr>
-		<tr>
-			<td>3103</td>
-			<td>3</td>
-			<td>3103</td>
-			<td>Tierra&nbsp;Amarilla</td>
-		</tr>
-		<tr>
-			<td>3201</td>
-			<td>3</td>
-			<td>3201</td>
-			<td>Chañaral</td>
-		</tr>
-		<tr>
-			<td>3202</td>
-			<td>3</td>
-			<td>3202</td>
-			<td>Diego&nbsp;de&nbsp;Almagro</td>
-		</tr>
-		<tr>
-			<td>3301</td>
-			<td>3</td>
-			<td>3301</td>
-			<td>Vallenar</td>
-		</tr>
-		<tr>
-			<td>3302</td>
-			<td>3</td>
-			<td>3302</td>
-			<td>Alto&nbsp;del&nbsp;Carmen</td>
-		</tr>
-		<tr>
-			<td>3303</td>
-			<td>3</td>
-			<td>3303</td>
-			<td>Freirina</td>
-		</tr>
-		<tr>
-			<td>3304</td>
-			<td>3</td>
-			<td>3304</td>
-			<td>Huasco</td>
-		</tr>
-		<tr>
-			<td>4101</td>
-			<td>4</td>
-			<td>4101</td>
-			<td>La&nbsp;Serena</td>
-		</tr>
-		<tr>
-			<td>4102</td>
-			<td>4</td>
-			<td>4102</td>
-			<td>Coquimbo</td>
-		</tr>
-		<tr>
-			<td>4103</td>
-			<td>4</td>
-			<td>4103</td>
-			<td>Andacollo</td>
-		</tr>
-		<tr>
-			<td>4104</td>
-			<td>4</td>
-			<td>4104</td>
-			<td>La&nbsp;Higuera</td>
-		</tr>
-		<tr>
-			<td>4105</td>
-			<td>4</td>
-			<td>4105</td>
-			<td>Paihuano</td>
-		</tr>
-		<tr>
-			<td>4106</td>
-			<td>4</td>
-			<td>4106</td>
-			<td>Vicuña</td>
-		</tr>
-		<tr>
-			<td>4201</td>
-			<td>4</td>
-			<td>4201</td>
-			<td>Illapel</td>
-		</tr>
-		<tr>
-			<td>4202</td>
-			<td>4</td>
-			<td>4202</td>
-			<td>Canela</td>
-		</tr>
-		<tr>
-			<td>4203</td>
-			<td>4</td>
-			<td>4203</td>
-			<td>Los&nbsp;Vilos</td>
-		</tr>
-		<tr>
-			<td>4204</td>
-			<td>4</td>
-			<td>4204</td>
-			<td>Salamanca</td>
-		</tr>
-		<tr>
-			<td>4301</td>
-			<td>4</td>
-			<td>4301</td>
-			<td>Ovalle</td>
-		</tr>
-		<tr>
-			<td>4302</td>
-			<td>4</td>
-			<td>4302</td>
-			<td>Combarbalá</td>
-		</tr>
-		<tr>
-			<td>4303</td>
-			<td>4</td>
-			<td>4303</td>
-			<td>Monte&nbsp;Patria</td>
-		</tr>
-		<tr>
-			<td>4304</td>
-			<td>4</td>
-			<td>4304</td>
-			<td>Punitaqui</td>
-		</tr>
-		<tr>
-			<td>4305</td>
-			<td>4</td>
-			<td>4305</td>
-			<td>Río&nbsp;Hurtado</td>
-		</tr>
-		<tr>
-			<td>5101</td>
-			<td>5</td>
-			<td>5101</td>
-			<td>Valparaíso</td>
-		</tr>
-		<tr>
-			<td>5102</td>
-			<td>5</td>
-			<td>5102</td>
-			<td>Casablanca</td>
-		</tr>
-		<tr>
-			<td>5103</td>
-			<td>5</td>
-			<td>5103</td>
-			<td>Concón</td>
-		</tr>
-		<tr>
-			<td>5104</td>
-			<td>5</td>
-			<td>5104</td>
-			<td>Juan&nbsp;Fernández</td>
-		</tr>
-		<tr>
-			<td>5105</td>
-			<td>5</td>
-			<td>5105</td>
-			<td>Puchuncaví</td>
-		</tr>
-		<tr>
-			<td>5107</td>
-			<td>5</td>
-			<td>5107</td>
-			<td>Quintero</td>
-		</tr>
-		<tr>
-			<td>5109</td>
-			<td>5</td>
-			<td>5109</td>
-			<td>Viña&nbsp;del&nbsp;Mar</td>
-		</tr>
-		<tr>
-			<td>5201</td>
-			<td>5</td>
-			<td>5201</td>
-			<td>Isla&nbsp;de&nbsp;Pascua</td>
-		</tr>
-		<tr>
-			<td>5301</td>
-			<td>5</td>
-			<td>5301</td>
-			<td>Los&nbsp;Andes</td>
-		</tr>
-		<tr>
-			<td>5302</td>
-			<td>5</td>
-			<td>5302</td>
-			<td>Calle&nbsp;Larga</td>
-		</tr>
-		<tr>
-			<td>5303</td>
-			<td>5</td>
-			<td>5303</td>
-			<td>Rinconada</td>
-		</tr>
-		<tr>
-			<td>5304</td>
-			<td>5</td>
-			<td>5304</td>
-			<td>San&nbsp;Esteban</td>
-		</tr>
-		<tr>
-			<td>5401</td>
-			<td>5</td>
-			<td>5401</td>
-			<td>La&nbsp;Ligua</td>
-		</tr>
-		<tr>
-			<td>5402</td>
-			<td>5</td>
-			<td>5402</td>
-			<td>Cabildo</td>
-		</tr>
-		<tr>
-			<td>5403</td>
-			<td>5</td>
-			<td>5403</td>
-			<td>Papudo</td>
-		</tr>
-		<tr>
-			<td>5404</td>
-			<td>5</td>
-			<td>5404</td>
-			<td>Petorca</td>
-		</tr>
-		<tr>
-			<td>5405</td>
-			<td>5</td>
-			<td>5405</td>
-			<td>Zapallar</td>
-		</tr>
-		<tr>
-			<td>5501</td>
-			<td>5</td>
-			<td>5501</td>
-			<td>Quillota</td>
-		</tr>
-		<tr>
-			<td>5502</td>
-			<td>5</td>
-			<td>5502</td>
-			<td>La&nbsp;Calera</td>
-		</tr>
-		<tr>
-			<td>5503</td>
-			<td>5</td>
-			<td>5503</td>
-			<td>Hijuelas</td>
-		</tr>
-		<tr>
-			<td>5504</td>
-			<td>5</td>
-			<td>5504</td>
-			<td>La&nbsp;Cruz</td>
-		</tr>
-		<tr>
-			<td>5506</td>
-			<td>5</td>
-			<td>5506</td>
-			<td>Nogales</td>
-		</tr>
-		<tr>
-			<td>5601</td>
-			<td>5</td>
-			<td>5601</td>
-			<td>San&nbsp;Antonio</td>
-		</tr>
-		<tr>
-			<td>5602</td>
-			<td>5</td>
-			<td>5602</td>
-			<td>Algarrobo</td>
-		</tr>
-		<tr>
-			<td>5603</td>
-			<td>5</td>
-			<td>5603</td>
-			<td>Cartagena</td>
-		</tr>
-		<tr>
-			<td>5604</td>
-			<td>5</td>
-			<td>5604</td>
-			<td>El&nbsp;Quisco</td>
-		</tr>
-		<tr>
-			<td>5605</td>
-			<td>5</td>
-			<td>5605</td>
-			<td>El&nbsp;Tabo</td>
-		</tr>
-		<tr>
-			<td>5606</td>
-			<td>5</td>
-			<td>5606</td>
-			<td>Santo&nbsp;Domingo</td>
-		</tr>
-		<tr>
-			<td>5701</td>
-			<td>5</td>
-			<td>5701</td>
-			<td>San&nbsp;Felipe</td>
-		</tr>
-		<tr>
-			<td>5702</td>
-			<td>5</td>
-			<td>5702</td>
-			<td>Catemu</td>
-		</tr>
-		<tr>
-			<td>5703</td>
-			<td>5</td>
-			<td>5703</td>
-			<td>Llay&nbsp;Llay</td>
-		</tr>
-		<tr>
-			<td>5704</td>
-			<td>5</td>
-			<td>5704</td>
-			<td>Panquehue</td>
-		</tr>
-		<tr>
-			<td>5705</td>
-			<td>5</td>
-			<td>5705</td>
-			<td>Putaendo</td>
-		</tr>
-		<tr>
-			<td>5706</td>
-			<td>5</td>
-			<td>5706</td>
-			<td>Santa&nbsp;María</td>
-		</tr>
-		<tr>
-			<td>5801</td>
-			<td>5</td>
-			<td>5801</td>
-			<td>Quilpué</td>
-		</tr>
-		<tr>
-			<td>5802</td>
-			<td>5</td>
-			<td>5802</td>
-			<td>Limache</td>
-		</tr>
-		<tr>
-			<td>5803</td>
-			<td>5</td>
-			<td>5803</td>
-			<td>Olmué</td>
-		</tr>
-		<tr>
-			<td>5804</td>
-			<td>5</td>
-			<td>5804</td>
-			<td>Villa&nbsp;Alemana</td>
-		</tr>
-		<tr>
-			<td>6101</td>
-			<td>6</td>
-			<td>6101</td>
-			<td>Rancagua</td>
-		</tr>
-		<tr>
-			<td>6102</td>
-			<td>6</td>
-			<td>6102</td>
-			<td>Codegua</td>
-		</tr>
-		<tr>
-			<td>6103</td>
-			<td>6</td>
-			<td>6103</td>
-			<td>Coinco</td>
-		</tr>
-		<tr>
-			<td>6104</td>
-			<td>6</td>
-			<td>6104</td>
-			<td>Coltauco</td>
-		</tr>
-		<tr>
-			<td>6105</td>
-			<td>6</td>
-			<td>6105</td>
-			<td>Doñihue</td>
-		</tr>
-		<tr>
-			<td>6106</td>
-			<td>6</td>
-			<td>6106</td>
-			<td>Graneros</td>
-		</tr>
-		<tr>
-			<td>6107</td>
-			<td>6</td>
-			<td>6107</td>
-			<td>Las&nbsp;Cabras</td>
-		</tr>
-		<tr>
-			<td>6108</td>
-			<td>6</td>
-			<td>6108</td>
-			<td>Machalí</td>
-		</tr>
-		<tr>
-			<td>6109</td>
-			<td>6</td>
-			<td>6109</td>
-			<td>Malloa</td>
-		</tr>
-		<tr>
-			<td>6110</td>
-			<td>6</td>
-			<td>6110</td>
-			<td>Mostazal</td>
-		</tr>
-		<tr>
-			<td>6111</td>
-			<td>6</td>
-			<td>6111</td>
-			<td>Olivar</td>
-		</tr>
-		<tr>
-			<td>6112</td>
-			<td>6</td>
-			<td>6112</td>
-			<td>Peumo</td>
-		</tr>
-		<tr>
-			<td>6113</td>
-			<td>6</td>
-			<td>6113</td>
-			<td>Pichidegua</td>
-		</tr>
-		<tr>
-			<td>6114</td>
-			<td>6</td>
-			<td>6114</td>
-			<td>Quinta&nbsp;de&nbsp;Tilcoco</td>
-		</tr>
-		<tr>
-			<td>6115</td>
-			<td>6</td>
-			<td>6115</td>
-			<td>Rengo</td>
-		</tr>
-		<tr>
-			<td>6116</td>
-			<td>6</td>
-			<td>6116</td>
-			<td>Requínoa</td>
-		</tr>
-		<tr>
-			<td>6117</td>
-			<td>6</td>
-			<td>6117</td>
-			<td>San&nbsp;Vicente</td>
-		</tr>
-		<tr>
-			<td>6201</td>
-			<td>6</td>
-			<td>6201</td>
-			<td>Pichilemu</td>
-		</tr>
-		<tr>
-			<td>6202</td>
-			<td>6</td>
-			<td>6202</td>
-			<td>La&nbsp;Estrella</td>
-		</tr>
-		<tr>
-			<td>6203</td>
-			<td>6</td>
-			<td>6203</td>
-			<td>Litueche</td>
-		</tr>
-		<tr>
-			<td>6204</td>
-			<td>6</td>
-			<td>6204</td>
-			<td>Marchihue</td>
-		</tr>
-		<tr>
-			<td>6205</td>
-			<td>6</td>
-			<td>6205</td>
-			<td>Navidad</td>
-		</tr>
-		<tr>
-			<td>6206</td>
-			<td>6</td>
-			<td>6206</td>
-			<td>Paredones</td>
-		</tr>
-		<tr>
-			<td>6301</td>
-			<td>6</td>
-			<td>6301</td>
-			<td>San&nbsp;Fernando</td>
-		</tr>
-		<tr>
-			<td>6302</td>
-			<td>6</td>
-			<td>6302</td>
-			<td>Chépica</td>
-		</tr>
-		<tr>
-			<td>6303</td>
-			<td>6</td>
-			<td>6303</td>
-			<td>Chimbarongo</td>
-		</tr>
-		<tr>
-			<td>6304</td>
-			<td>6</td>
-			<td>6304</td>
-			<td>Lolol</td>
-		</tr>
-		<tr>
-			<td>6305</td>
-			<td>6</td>
-			<td>6305</td>
-			<td>Nancagua</td>
-		</tr>
-		<tr>
-			<td>6306</td>
-			<td>6</td>
-			<td>6306</td>
-			<td>Palmilla</td>
-		</tr>
-		<tr>
-			<td>6307</td>
-			<td>6</td>
-			<td>6307</td>
-			<td>Peralillo</td>
-		</tr>
-		<tr>
-			<td>6308</td>
-			<td>6</td>
-			<td>6308</td>
-			<td>Placilla</td>
-		</tr>
-		<tr>
-			<td>6309</td>
-			<td>6</td>
-			<td>6309</td>
-			<td>Pumanque</td>
-		</tr>
-		<tr>
-			<td>6310</td>
-			<td>6</td>
-			<td>6310</td>
-			<td>Santa&nbsp;Cruz</td>
-		</tr>
-		<tr>
-			<td>7101</td>
-			<td>7</td>
-			<td>7101</td>
-			<td>Talca</td>
-		</tr>
-		<tr>
-			<td>7102</td>
-			<td>7</td>
-			<td>7102</td>
-			<td>Constitución</td>
-		</tr>
-		<tr>
-			<td>7103</td>
-			<td>7</td>
-			<td>7103</td>
-			<td>Curepto</td>
-		</tr>
-		<tr>
-			<td>7104</td>
-			<td>7</td>
-			<td>7104</td>
-			<td>Empedrado</td>
-		</tr>
-		<tr>
-			<td>7105</td>
-			<td>7</td>
-			<td>7105</td>
-			<td>Maule</td>
-		</tr>
-		<tr>
-			<td>7106</td>
-			<td>7</td>
-			<td>7106</td>
-			<td>Pelarco</td>
-		</tr>
-		<tr>
-			<td>7107</td>
-			<td>7</td>
-			<td>7107</td>
-			<td>Pencahue</td>
-		</tr>
-		<tr>
-			<td>7108</td>
-			<td>7</td>
-			<td>7108</td>
-			<td>Río&nbsp;Claro</td>
-		</tr>
-		<tr>
-			<td>7109</td>
-			<td>7</td>
-			<td>7109</td>
-			<td>San&nbsp;Clemente</td>
-		</tr>
-		<tr>
-			<td>7110</td>
-			<td>7</td>
-			<td>7110</td>
-			<td>San&nbsp;Rafael</td>
-		</tr>
-		<tr>
-			<td>7201</td>
-			<td>7</td>
-			<td>7201</td>
-			<td>Cauquenes</td>
-		</tr>
-		<tr>
-			<td>7202</td>
-			<td>7</td>
-			<td>7202</td>
-			<td>Chanco</td>
-		</tr>
-		<tr>
-			<td>7203</td>
-			<td>7</td>
-			<td>7203</td>
-			<td>Pelluhue</td>
-		</tr>
-		<tr>
-			<td>7301</td>
-			<td>7</td>
-			<td>7301</td>
-			<td>Curicó</td>
-		</tr>
-		<tr>
-			<td>7302</td>
-			<td>7</td>
-			<td>7302</td>
-			<td>Hualañé</td>
-		</tr>
-		<tr>
-			<td>7303</td>
-			<td>7</td>
-			<td>7303</td>
-			<td>Licantén</td>
-		</tr>
-		<tr>
-			<td>7304</td>
-			<td>7</td>
-			<td>7304</td>
-			<td>Molina</td>
-		</tr>
-		<tr>
-			<td>7305</td>
-			<td>7</td>
-			<td>7305</td>
-			<td>Rauco</td>
-		</tr>
-		<tr>
-			<td>7306</td>
-			<td>7</td>
-			<td>7306</td>
-			<td>Romeral</td>
-		</tr>
-		<tr>
-			<td>7307</td>
-			<td>7</td>
-			<td>7307</td>
-			<td>Sagrada&nbsp;Familia</td>
-		</tr>
-		<tr>
-			<td>7308</td>
-			<td>7</td>
-			<td>7308</td>
-			<td>Teno</td>
-		</tr>
-		<tr>
-			<td>7309</td>
-			<td>7</td>
-			<td>7309</td>
-			<td>Vichuquén</td>
-		</tr>
-		<tr>
-			<td>7401</td>
-			<td>7</td>
-			<td>7401</td>
-			<td>Linares</td>
-		</tr>
-		<tr>
-			<td>7402</td>
-			<td>7</td>
-			<td>7402</td>
-			<td>Colbún</td>
-		</tr>
-		<tr>
-			<td>7403</td>
-			<td>7</td>
-			<td>7403</td>
-			<td>Longaví</td>
-		</tr>
-		<tr>
-			<td>7404</td>
-			<td>7</td>
-			<td>7404</td>
-			<td>Parral</td>
-		</tr>
-		<tr>
-			<td>7405</td>
-			<td>7</td>
-			<td>7405</td>
-			<td>Retiro</td>
-		</tr>
-		<tr>
-			<td>7406</td>
-			<td>7</td>
-			<td>7406</td>
-			<td>San&nbsp;Javier</td>
-		</tr>
-		<tr>
-			<td>7407</td>
-			<td>7</td>
-			<td>7407</td>
-			<td>Villa&nbsp;Alegre</td>
-		</tr>
-		<tr>
-			<td>7408</td>
-			<td>7</td>
-			<td>7408</td>
-			<td>Yerbas&nbsp;Buenas</td>
-		</tr>
-		<tr>
-			<td>8101</td>
-			<td>8</td>
-			<td>8101</td>
-			<td>Concepción</td>
-		</tr>
-		<tr>
-			<td>8102</td>
-			<td>8</td>
-			<td>8102</td>
-			<td>Coronel</td>
-		</tr>
-		<tr>
-			<td>8103</td>
-			<td>8</td>
-			<td>8103</td>
-			<td>Chiguayante</td>
-		</tr>
-		<tr>
-			<td>8104</td>
-			<td>8</td>
-			<td>8104</td>
-			<td>Florida</td>
-		</tr>
-		<tr>
-			<td>8105</td>
-			<td>8</td>
-			<td>8105</td>
-			<td>Hualqui</td>
-		</tr>
-		<tr>
-			<td>8106</td>
-			<td>8</td>
-			<td>8106</td>
-			<td>Lota</td>
-		</tr>
-		<tr>
-			<td>8107</td>
-			<td>8</td>
-			<td>8107</td>
-			<td>Penco</td>
-		</tr>
-		<tr>
-			<td>8108</td>
-			<td>8</td>
-			<td>8108</td>
-			<td>San&nbsp;Pedro&nbsp;de&nbsp;la&nbsp;Paz</td>
-		</tr>
-		<tr>
-			<td>8109</td>
-			<td>8</td>
-			<td>8109</td>
-			<td>Santa&nbsp;Juana</td>
-		</tr>
-		<tr>
-			<td>8110</td>
-			<td>8</td>
-			<td>8110</td>
-			<td>Talcahuano</td>
-		</tr>
-		<tr>
-			<td>8111</td>
-			<td>8</td>
-			<td>8111</td>
-			<td>Tomé</td>
-		</tr>
-		<tr>
-			<td>8112</td>
-			<td>8</td>
-			<td>8112</td>
-			<td>Hualpén</td>
-		</tr>
-		<tr>
-			<td>8201</td>
-			<td>8</td>
-			<td>8201</td>
-			<td>Lebu</td>
-		</tr>
-		<tr>
-			<td>8202</td>
-			<td>8</td>
-			<td>8202</td>
-			<td>Arauco</td>
-		</tr>
-		<tr>
-			<td>8203</td>
-			<td>8</td>
-			<td>8203</td>
-			<td>Cañete</td>
-		</tr>
-		<tr>
-			<td>8204</td>
-			<td>8</td>
-			<td>8204</td>
-			<td>Contulmo</td>
-		</tr>
-		<tr>
-			<td>8205</td>
-			<td>8</td>
-			<td>8205</td>
-			<td>Curanilahue</td>
-		</tr>
-		<tr>
-			<td>8206</td>
-			<td>8</td>
-			<td>8206</td>
-			<td>Los&nbsp;Álamos</td>
-		</tr>
-		<tr>
-			<td>8207</td>
-			<td>8</td>
-			<td>8207</td>
-			<td>Tirúa</td>
-		</tr>
-		<tr>
-			<td>8301</td>
-			<td>8</td>
-			<td>8301</td>
-			<td>Los&nbsp;Ángeles</td>
-		</tr>
-		<tr>
-			<td>8302</td>
-			<td>8</td>
-			<td>8302</td>
-			<td>Antuco</td>
-		</tr>
-		<tr>
-			<td>8303</td>
-			<td>8</td>
-			<td>8303</td>
-			<td>Cabrero</td>
-		</tr>
-		<tr>
-			<td>8304</td>
-			<td>8</td>
-			<td>8304</td>
-			<td>Laja</td>
-		</tr>
-		<tr>
-			<td>8305</td>
-			<td>8</td>
-			<td>8305</td>
-			<td>Mulchén</td>
-		</tr>
-		<tr>
-			<td>8306</td>
-			<td>8</td>
-			<td>8306</td>
-			<td>Nacimiento</td>
-		</tr>
-		<tr>
-			<td>8307</td>
-			<td>8</td>
-			<td>8307</td>
-			<td>Negrete</td>
-		</tr>
-		<tr>
-			<td>8308</td>
-			<td>8</td>
-			<td>8308</td>
-			<td>Quilaco</td>
-		</tr>
-		<tr>
-			<td>8309</td>
-			<td>8</td>
-			<td>8309</td>
-			<td>Quilleco</td>
-		</tr>
-		<tr>
-			<td>8310</td>
-			<td>8</td>
-			<td>8310</td>
-			<td>San&nbsp;Rosendo</td>
-		</tr>
-		<tr>
-			<td>8311</td>
-			<td>8</td>
-			<td>8311</td>
-			<td>Santa&nbsp;Bárbara</td>
-		</tr>
-		<tr>
-			<td>8312</td>
-			<td>8</td>
-			<td>8312</td>
-			<td>Tucapel</td>
-		</tr>
-		<tr>
-			<td>8313</td>
-			<td>8</td>
-			<td>8313</td>
-			<td>Yumbel</td>
-		</tr>
-		<tr>
-			<td>8314</td>
-			<td>8</td>
-			<td>8314</td>
-			<td>Alto&nbsp;Biobío</td>
-		</tr>
-		<tr>
-			<td>8401</td>
-			<td>8</td>
-			<td>8401</td>
-			<td>Chillán</td>
-		</tr>
-		<tr>
-			<td>8402</td>
-			<td>8</td>
-			<td>8402</td>
-			<td>Bulnes</td>
-		</tr>
-		<tr>
-			<td>8403</td>
-			<td>8</td>
-			<td>8403</td>
-			<td>Cobquecura</td>
-		</tr>
-		<tr>
-			<td>8404</td>
-			<td>8</td>
-			<td>8404</td>
-			<td>Coelemu</td>
-		</tr>
-		<tr>
-			<td>8405</td>
-			<td>8</td>
-			<td>8405</td>
-			<td>Coihueco</td>
-		</tr>
-		<tr>
-			<td>8406</td>
-			<td>8</td>
-			<td>8406</td>
-			<td>Chillán&nbsp;Viejo</td>
-		</tr>
-		<tr>
-			<td>8407</td>
-			<td>8</td>
-			<td>8407</td>
-			<td>El&nbsp;Carmen</td>
-		</tr>
-		<tr>
-			<td>8408</td>
-			<td>8</td>
-			<td>8408</td>
-			<td>Ninhue</td>
-		</tr>
-		<tr>
-			<td>8409</td>
-			<td>8</td>
-			<td>8409</td>
-			<td>Ñiquén</td>
-		</tr>
-		<tr>
-			<td>8410</td>
-			<td>8</td>
-			<td>8410</td>
-			<td>Pemuco</td>
-		</tr>
-		<tr>
-			<td>8411</td>
-			<td>8</td>
-			<td>8411</td>
-			<td>Pinto</td>
-		</tr>
-		<tr>
-			<td>8412</td>
-			<td>8</td>
-			<td>8412</td>
-			<td>Portezuelo</td>
-		</tr>
-		<tr>
-			<td>8413</td>
-			<td>8</td>
-			<td>8413</td>
-			<td>Quillón</td>
-		</tr>
-		<tr>
-			<td>8414</td>
-			<td>8</td>
-			<td>8414</td>
-			<td>Quirihue</td>
-		</tr>
-		<tr>
-			<td>8415</td>
-			<td>8</td>
-			<td>8415</td>
-			<td>Ránquil</td>
-		</tr>
-		<tr>
-			<td>8416</td>
-			<td>8</td>
-			<td>8416</td>
-			<td>San&nbsp;Carlos</td>
-		</tr>
-		<tr>
-			<td>8417</td>
-			<td>8</td>
-			<td>8417</td>
-			<td>San&nbsp;Fabián</td>
-		</tr>
-		<tr>
-			<td>8418</td>
-			<td>8</td>
-			<td>8418</td>
-			<td>San&nbsp;Ignacio</td>
-		</tr>
-		<tr>
-			<td>8419</td>
-			<td>8</td>
-			<td>8419</td>
-			<td>San&nbsp;Nicolás</td>
-		</tr>
-		<tr>
-			<td>8420</td>
-			<td>8</td>
-			<td>8420</td>
-			<td>Treguaco</td>
-		</tr>
-		<tr>
-			<td>8421</td>
-			<td>8</td>
-			<td>8421</td>
-			<td>Yungay</td>
-		</tr>
-		<tr>
-			<td>9101</td>
-			<td>9</td>
-			<td>9101</td>
-			<td>Temuco</td>
-		</tr>
-		<tr>
-			<td>9102</td>
-			<td>9</td>
-			<td>9102</td>
-			<td>Carahue</td>
-		</tr>
-		<tr>
-			<td>9103</td>
-			<td>9</td>
-			<td>9103</td>
-			<td>Cunco</td>
-		</tr>
-		<tr>
-			<td>9104</td>
-			<td>9</td>
-			<td>9104</td>
-			<td>Curarrehue</td>
-		</tr>
-		<tr>
-			<td>9105</td>
-			<td>9</td>
-			<td>9105</td>
-			<td>Freire</td>
-		</tr>
-		<tr>
-			<td>9106</td>
-			<td>9</td>
-			<td>9106</td>
-			<td>Galvarino</td>
-		</tr>
-		<tr>
-			<td>9107</td>
-			<td>9</td>
-			<td>9107</td>
-			<td>Gorbea</td>
-		</tr>
-		<tr>
-			<td>9108</td>
-			<td>9</td>
-			<td>9108</td>
-			<td>Lautaro</td>
-		</tr>
-		<tr>
-			<td>9109</td>
-			<td>9</td>
-			<td>9109</td>
-			<td>Loncoche</td>
-		</tr>
-		<tr>
-			<td>9110</td>
-			<td>9</td>
-			<td>9110</td>
-			<td>Melipeuco</td>
-		</tr>
-		<tr>
-			<td>9111</td>
-			<td>9</td>
-			<td>9111</td>
-			<td>Nueva&nbsp;Imperial</td>
-		</tr>
-		<tr>
-			<td>9112</td>
-			<td>9</td>
-			<td>9112</td>
-			<td>Padre&nbsp;las&nbsp;Casas</td>
-		</tr>
-		<tr>
-			<td>9113</td>
-			<td>9</td>
-			<td>9113</td>
-			<td>Perquenco</td>
-		</tr>
-		<tr>
-			<td>9114</td>
-			<td>9</td>
-			<td>9114</td>
-			<td>Pitrufquén</td>
-		</tr>
-		<tr>
-			<td>9115</td>
-			<td>9</td>
-			<td>9115</td>
-			<td>Pucón</td>
-		</tr>
-		<tr>
-			<td>9116</td>
-			<td>9</td>
-			<td>9116</td>
-			<td>Saavedra</td>
-		</tr>
-		<tr>
-			<td>9117</td>
-			<td>9</td>
-			<td>9117</td>
-			<td>Teodoro&nbsp;Schmidt</td>
-		</tr>
-		<tr>
-			<td>9118</td>
-			<td>9</td>
-			<td>9118</td>
-			<td>Toltén</td>
-		</tr>
-		<tr>
-			<td>9119</td>
-			<td>9</td>
-			<td>9119</td>
-			<td>Vilcún</td>
-		</tr>
-		<tr>
-			<td>9120</td>
-			<td>9</td>
-			<td>9120</td>
-			<td>Villarrica</td>
-		</tr>
-		<tr>
-			<td>9121</td>
-			<td>9</td>
-			<td>9121</td>
-			<td>Cholchol</td>
-		</tr>
-		<tr>
-			<td>9201</td>
-			<td>9</td>
-			<td>9201</td>
-			<td>Angol</td>
-		</tr>
-		<tr>
-			<td>9202</td>
-			<td>9</td>
-			<td>9202</td>
-			<td>Collipulli</td>
-		</tr>
-		<tr>
-			<td>9203</td>
-			<td>9</td>
-			<td>9203</td>
-			<td>Curacautín</td>
-		</tr>
-		<tr>
-			<td>9204</td>
-			<td>9</td>
-			<td>9204</td>
-			<td>Ercilla</td>
-		</tr>
-		<tr>
-			<td>9205</td>
-			<td>9</td>
-			<td>9205</td>
-			<td>Lonquimay</td>
-		</tr>
-		<tr>
-			<td>9206</td>
-			<td>9</td>
-			<td>9206</td>
-			<td>Los&nbsp;Sauces</td>
-		</tr>
-		<tr>
-			<td>9207</td>
-			<td>9</td>
-			<td>9207</td>
-			<td>Lumaco</td>
-		</tr>
-		<tr>
-			<td>9208</td>
-			<td>9</td>
-			<td>9208</td>
-			<td>Purén</td>
-		</tr>
-		<tr>
-			<td>9209</td>
-			<td>9</td>
-			<td>9209</td>
-			<td>Renaico</td>
-		</tr>
-		<tr>
-			<td>9210</td>
-			<td>9</td>
-			<td>9210</td>
-			<td>Traiguén</td>
-		</tr>
-		<tr>
-			<td>9211</td>
-			<td>9</td>
-			<td>9211</td>
-			<td>Victoria</td>
-		</tr>
-		<tr>
-			<td>10101</td>
-			<td>10</td>
-			<td>10101</td>
-			<td>Puerto&nbsp;Montt</td>
-		</tr>
-		<tr>
-			<td>10102</td>
-			<td>10</td>
-			<td>10102</td>
-			<td>Calbuco</td>
-		</tr>
-		<tr>
-			<td>10103</td>
-			<td>10</td>
-			<td>10103</td>
-			<td>Cochamó</td>
-		</tr>
-		<tr>
-			<td>10104</td>
-			<td>10</td>
-			<td>10104</td>
-			<td>Fresia</td>
-		</tr>
-		<tr>
-			<td>10105</td>
-			<td>10</td>
-			<td>10105</td>
-			<td>Frutillar</td>
-		</tr>
-		<tr>
-			<td>10106</td>
-			<td>10</td>
-			<td>10106</td>
-			<td>Los&nbsp;Muermos</td>
-		</tr>
-		<tr>
-			<td>10107</td>
-			<td>10</td>
-			<td>10107</td>
-			<td>Llanquihue</td>
-		</tr>
-		<tr>
-			<td>10108</td>
-			<td>10</td>
-			<td>10108</td>
-			<td>Maullín</td>
-		</tr>
-		<tr>
-			<td>10109</td>
-			<td>10</td>
-			<td>10109</td>
-			<td>Puerto&nbsp;Varas</td>
-		</tr>
-		<tr>
-			<td>10201</td>
-			<td>10</td>
-			<td>10201</td>
-			<td>Castro</td>
-		</tr>
-		<tr>
-			<td>10202</td>
-			<td>10</td>
-			<td>10202</td>
-			<td>Ancud</td>
-		</tr>
-		<tr>
-			<td>10203</td>
-			<td>10</td>
-			<td>10203</td>
-			<td>Chonchi</td>
-		</tr>
-		<tr>
-			<td>10204</td>
-			<td>10</td>
-			<td>10204</td>
-			<td>Curaco&nbsp;de&nbsp;Vélez</td>
-		</tr>
-		<tr>
-			<td>10205</td>
-			<td>10</td>
-			<td>10205</td>
-			<td>Dalcahue</td>
-		</tr>
-		<tr>
-			<td>10206</td>
-			<td>10</td>
-			<td>10206</td>
-			<td>Puqueldón</td>
-		</tr>
-		<tr>
-			<td>10207</td>
-			<td>10</td>
-			<td>10207</td>
-			<td>Queilén</td>
-		</tr>
-		<tr>
-			<td>10208</td>
-			<td>10</td>
-			<td>10208</td>
-			<td>Quellón</td>
-		</tr>
-		<tr>
-			<td>10209</td>
-			<td>10</td>
-			<td>10209</td>
-			<td>Quemchi</td>
-		</tr>
-		<tr>
-			<td>10210</td>
-			<td>10</td>
-			<td>10210</td>
-			<td>Quinchao</td>
-		</tr>
-		<tr>
-			<td>10301</td>
-			<td>10</td>
-			<td>10301</td>
-			<td>Osorno</td>
-		</tr>
-		<tr>
-			<td>10302</td>
-			<td>10</td>
-			<td>10302</td>
-			<td>Puerto&nbsp;Octay</td>
-		</tr>
-		<tr>
-			<td>10303</td>
-			<td>10</td>
-			<td>10303</td>
-			<td>Purranque</td>
-		</tr>
-		<tr>
-			<td>10304</td>
-			<td>10</td>
-			<td>10304</td>
-			<td>Puyehue</td>
-		</tr>
-		<tr>
-			<td>10305</td>
-			<td>10</td>
-			<td>10305</td>
-			<td>Río&nbsp;Negro</td>
-		</tr>
-		<tr>
-			<td>10306</td>
-			<td>10</td>
-			<td>10306</td>
-			<td>San&nbsp;Juan&nbsp;de&nbsp;la&nbsp;Costa</td>
-		</tr>
-		<tr>
-			<td>10307</td>
-			<td>10</td>
-			<td>10307</td>
-			<td>San&nbsp;Pablo</td>
-		</tr>
-		<tr>
-			<td>10401</td>
-			<td>10</td>
-			<td>10401</td>
-			<td>Chaitén</td>
-		</tr>
-		<tr>
-			<td>10402</td>
-			<td>10</td>
-			<td>10402</td>
-			<td>Futaleufú</td>
-		</tr>
-		<tr>
-			<td>10403</td>
-			<td>10</td>
-			<td>10403</td>
-			<td>Hualaihué</td>
-		</tr>
-		<tr>
-			<td>10404</td>
-			<td>10</td>
-			<td>10404</td>
-			<td>Palena</td>
-		</tr>
-		<tr>
-			<td>11101</td>
-			<td>11</td>
-			<td>11101</td>
-			<td>Coyhaique</td>
-		</tr>
-		<tr>
-			<td>11102</td>
-			<td>11</td>
-			<td>11102</td>
-			<td>Lago&nbsp;Verde</td>
-		</tr>
-		<tr>
-			<td>11201</td>
-			<td>11</td>
-			<td>11201</td>
-			<td>Aysén</td>
-		</tr>
-		<tr>
-			<td>11202</td>
-			<td>11</td>
-			<td>11202</td>
-			<td>Cisnes</td>
-		</tr>
-		<tr>
-			<td>11203</td>
-			<td>11</td>
-			<td>11203</td>
-			<td>Guaitecas</td>
-		</tr>
-		<tr>
-			<td>11301</td>
-			<td>11</td>
-			<td>11301</td>
-			<td>Cochrane</td>
-		</tr>
-		<tr>
-			<td>11302</td>
-			<td>11</td>
-			<td>11302</td>
-			<td>O&apos;Higgins</td>
-		</tr>
-		<tr>
-			<td>11303</td>
-			<td>11</td>
-			<td>11303</td>
-			<td>Tortel</td>
-		</tr>
-		<tr>
-			<td>11401</td>
-			<td>11</td>
-			<td>11401</td>
-			<td>Chile&nbsp;Chico</td>
-		</tr>
-		<tr>
-			<td>11402</td>
-			<td>11</td>
-			<td>11402</td>
-			<td>Río&nbsp;Ibáñez</td>
-		</tr>
-		<tr>
-			<td>12101</td>
-			<td>12</td>
-			<td>12101</td>
-			<td>Punta&nbsp;Arenas</td>
-		</tr>
-		<tr>
-			<td>12102</td>
-			<td>12</td>
-			<td>12102</td>
-			<td>Laguna&nbsp;Blanca</td>
-		</tr>
-		<tr>
-			<td>12103</td>
-			<td>12</td>
-			<td>12103</td>
-			<td>Río&nbsp;Verde</td>
-		</tr>
-		<tr>
-			<td>12104</td>
-			<td>12</td>
-			<td>12104</td>
-			<td>San&nbsp;Gregorio</td>
-		</tr>
-		<tr>
-			<td>12201</td>
-			<td>12</td>
-			<td>12201</td>
-			<td>Cabo&nbsp;de&nbsp;Hornos</td>
-		</tr>
-		<tr>
-			<td>12202</td>
-			<td>12</td>
-			<td>12202</td>
-			<td>Antártica</td>
-		</tr>
-		<tr>
-			<td>12301</td>
-			<td>12</td>
-			<td>12301</td>
-			<td>Porvenir</td>
-		</tr>
-		<tr>
-			<td>12302</td>
-			<td>12</td>
-			<td>12302</td>
-			<td>Primavera</td>
-		</tr>
-		<tr>
-			<td>12303</td>
-			<td>12</td>
-			<td>12303</td>
-			<td>Timaukel</td>
-		</tr>
-		<tr>
-			<td>12401</td>
-			<td>12</td>
-			<td>12401</td>
-			<td>Natales</td>
-		</tr>
-		<tr>
-			<td>12402</td>
-			<td>12</td>
-			<td>12402</td>
-			<td>Torres&nbsp;del&nbsp;Paine</td>
-		</tr>
-		<tr>
-			<td>13101</td>
-			<td>13</td>
-			<td>13101</td>
-			<td>Santiago</td>
-		</tr>
-		<tr>
-			<td>13102</td>
-			<td>13</td>
-			<td>13102</td>
-			<td>Cerrillos</td>
-		</tr>
-		<tr>
-			<td>13103</td>
-			<td>13</td>
-			<td>13103</td>
-			<td>Cerro&nbsp;Navia</td>
-		</tr>
-		<tr>
-			<td>13104</td>
-			<td>13</td>
-			<td>13104</td>
-			<td>Conchalí</td>
-		</tr>
-		<tr>
-			<td>13105</td>
-			<td>13</td>
-			<td>13105</td>
-			<td>El&nbsp;Bosque</td>
-		</tr>
-		<tr>
-			<td>13106</td>
-			<td>13</td>
-			<td>13106</td>
-			<td>Estación&nbsp;Central</td>
-		</tr>
-		<tr>
-			<td>13107</td>
-			<td>13</td>
-			<td>13107</td>
-			<td>Huechuraba</td>
-		</tr>
-		<tr>
-			<td>13108</td>
-			<td>13</td>
-			<td>13108</td>
-			<td>Independencia</td>
-		</tr>
-		<tr>
-			<td>13109</td>
-			<td>13</td>
-			<td>13109</td>
-			<td>La&nbsp;Cisterna</td>
-		</tr>
-		<tr>
-			<td>13110</td>
-			<td>13</td>
-			<td>13110</td>
-			<td>La&nbsp;Florida</td>
-		</tr>
-		<tr>
-			<td>13111</td>
-			<td>13</td>
-			<td>13111</td>
-			<td>La&nbsp;Granja</td>
-		</tr>
-		<tr>
-			<td>13112</td>
-			<td>13</td>
-			<td>13112</td>
-			<td>La&nbsp;Pintana</td>
-		</tr>
-		<tr>
-			<td>13113</td>
-			<td>13</td>
-			<td>13113</td>
-			<td>La&nbsp;Reina</td>
-		</tr>
-		<tr>
-			<td>13114</td>
-			<td>13</td>
-			<td>13114</td>
-			<td>Las&nbsp;Condes</td>
-		</tr>
-		<tr>
-			<td>13115</td>
-			<td>13</td>
-			<td>13115</td>
-			<td>Lo&nbsp;Barnechea</td>
-		</tr>
-		<tr>
-			<td>13116</td>
-			<td>13</td>
-			<td>13116</td>
-			<td>Lo&nbsp;Espejo</td>
-		</tr>
-		<tr>
-			<td>13117</td>
-			<td>13</td>
-			<td>13117</td>
-			<td>Lo&nbsp;Prado</td>
-		</tr>
-		<tr>
-			<td>13118</td>
-			<td>13</td>
-			<td>13118</td>
-			<td>Macul</td>
-		</tr>
-		<tr>
-			<td>13119</td>
-			<td>13</td>
-			<td>13119</td>
-			<td>Maipú</td>
-		</tr>
-		<tr>
-			<td>13120</td>
-			<td>13</td>
-			<td>13120</td>
-			<td>Ñuñoa</td>
-		</tr>
-		<tr>
-			<td>13121</td>
-			<td>13</td>
-			<td>13121</td>
-			<td>Pedro&nbsp;Aguirre&nbsp;Cerda</td>
-		</tr>
-		<tr>
-			<td>13122</td>
-			<td>13</td>
-			<td>13122</td>
-			<td>Peñalolén</td>
-		</tr>
-		<tr>
-			<td>13123</td>
-			<td>13</td>
-			<td>13123</td>
-			<td>Providencia</td>
-		</tr>
-		<tr>
-			<td>13124</td>
-			<td>13</td>
-			<td>13124</td>
-			<td>Pudahuel</td>
-		</tr>
-		<tr>
-			<td>13125</td>
-			<td>13</td>
-			<td>13125</td>
-			<td>Quilicura</td>
-		</tr>
-		<tr>
-			<td>13126</td>
-			<td>13</td>
-			<td>13126</td>
-			<td>Quinta&nbsp;Normal</td>
-		</tr>
-		<tr>
-			<td>13127</td>
-			<td>13</td>
-			<td>13127</td>
-			<td>Recoleta</td>
-		</tr>
-		<tr>
-			<td>13128</td>
-			<td>13</td>
-			<td>13128</td>
-			<td>Renca</td>
-		</tr>
-		<tr>
-			<td>13129</td>
-			<td>13</td>
-			<td>13129</td>
-			<td>San&nbsp;Joaquín</td>
-		</tr>
-		<tr>
-			<td>13130</td>
-			<td>13</td>
-			<td>13130</td>
-			<td>San&nbsp;Miguel</td>
-		</tr>
-		<tr>
-			<td>13131</td>
-			<td>13</td>
-			<td>13131</td>
-			<td>San&nbsp;Ramón</td>
-		</tr>
-		<tr>
-			<td>13132</td>
-			<td>13</td>
-			<td>13132</td>
-			<td>Vitacura</td>
-		</tr>
-		<tr>
-			<td>13201</td>
-			<td>13</td>
-			<td>13201</td>
-			<td>Puente&nbsp;Alto</td>
-		</tr>
-		<tr>
-			<td>13202</td>
-			<td>13</td>
-			<td>13202</td>
-			<td>Pirque</td>
-		</tr>
-		<tr>
-			<td>13203</td>
-			<td>13</td>
-			<td>13203</td>
-			<td>San&nbsp;José&nbsp;de&nbsp;Maipo</td>
-		</tr>
-		<tr>
-			<td>13301</td>
-			<td>13</td>
-			<td>13301</td>
-			<td>Colina</td>
-		</tr>
-		<tr>
-			<td>13302</td>
-			<td>13</td>
-			<td>13302</td>
-			<td>Lampa</td>
-		</tr>
-		<tr>
-			<td>13303</td>
-			<td>13</td>
-			<td>13303</td>
-			<td>Tiltil</td>
-		</tr>
-		<tr>
-			<td>13401</td>
-			<td>13</td>
-			<td>13401</td>
-			<td>San&nbsp;Bernardo</td>
-		</tr>
-		<tr>
-			<td>13402</td>
-			<td>13</td>
-			<td>13402</td>
-			<td>Buin</td>
-		</tr>
-		<tr>
-			<td>13403</td>
-			<td>13</td>
-			<td>13403</td>
-			<td>Calera&nbsp;de&nbsp;Tango</td>
-		</tr>
-		<tr>
-			<td>13404</td>
-			<td>13</td>
-			<td>13404</td>
-			<td>Paine</td>
-		</tr>
-		<tr>
-			<td>13501</td>
-			<td>13</td>
-			<td>13501</td>
-			<td>Melipilla</td>
-		</tr>
-		<tr>
-			<td>13502</td>
-			<td>13</td>
-			<td>13502</td>
-			<td>Alhué</td>
-		</tr>
-		<tr>
-			<td>13503</td>
-			<td>13</td>
-			<td>13503</td>
-			<td>Curacaví</td>
-		</tr>
-		<tr>
-			<td>13504</td>
-			<td>13</td>
-			<td>13504</td>
-			<td>María&nbsp;Pinto</td>
-		</tr>
-		<tr>
-			<td>13505</td>
-			<td>13</td>
-			<td>13505</td>
-			<td>San&nbsp;Pedro</td>
-		</tr>
-		<tr>
-			<td>13601</td>
-			<td>13</td>
-			<td>13601</td>
-			<td>Talagante</td>
-		</tr>
-		<tr>
-			<td>13602</td>
-			<td>13</td>
-			<td>13602</td>
-			<td>El&nbsp;Monte</td>
-		</tr>
-		<tr>
-			<td>13603</td>
-			<td>13</td>
-			<td>13603</td>
-			<td>Isla&nbsp;de&nbsp;Maipo</td>
-		</tr>
-		<tr>
-			<td>13604</td>
-			<td>13</td>
-			<td>13604</td>
-			<td>Padre&nbsp;Hurtado</td>
-		</tr>
-		<tr>
-			<td>13605</td>
-			<td>13</td>
-			<td>13605</td>
-			<td>Peñaflor</td>
-		</tr>
-		<tr>
-			<td>14101</td>
-			<td>14</td>
-			<td>14101</td>
-			<td>Valdivia</td>
-		</tr>
-		<tr>
-			<td>14102</td>
-			<td>14</td>
-			<td>14102</td>
-			<td>Corral</td>
-		</tr>
-		<tr>
-			<td>14103</td>
-			<td>14</td>
-			<td>14103</td>
-			<td>Lanco</td>
-		</tr>
-		<tr>
-			<td>14104</td>
-			<td>14</td>
-			<td>14104</td>
-			<td>Los&nbsp;Lagos</td>
-		</tr>
-		<tr>
-			<td>14105</td>
-			<td>14</td>
-			<td>14105</td>
-			<td>Máfil</td>
-		</tr>
-		<tr>
-			<td>14106</td>
-			<td>14</td>
-			<td>14106</td>
-			<td>Mariquina</td>
-		</tr>
-		<tr>
-			<td>14107</td>
-			<td>14</td>
-			<td>14107</td>
-			<td>Paillaco</td>
-		</tr>
-		<tr>
-			<td>14108</td>
-			<td>14</td>
-			<td>14108</td>
-			<td>Panguipulli</td>
-		</tr>
-		<tr>
-			<td>14201</td>
-			<td>14</td>
-			<td>14201</td>
-			<td>La&nbsp;Unión</td>
-		</tr>
-		<tr>
-			<td>14202</td>
-			<td>14</td>
-			<td>14202</td>
-			<td>Futrono</td>
-		</tr>
-		<tr>
-			<td>14203</td>
-			<td>14</td>
-			<td>14203</td>
-			<td>Lago&nbsp;Ranco</td>
-		</tr>
-		<tr>
-			<td>14204</td>
-			<td>14</td>
-			<td>14204</td>
-			<td>Río&nbsp;Bueno</td>
-		</tr>
-		<tr>
-			<td>15101</td>
-			<td>15</td>
-			<td>15101</td>
-			<td>Arica</td>
-		</tr>
-		<tr>
-			<td>15102</td>
-			<td>15</td>
-			<td>15102</td>
-			<td>Camarones</td>
-		</tr>
-		<tr>
-			<td>15201</td>
-			<td>15</td>
-			<td>15201</td>
-			<td>Putre</td>
-		</tr>
-	</table>
+|id|region_id|codigo|nombre|
+|--- |--- |--- |--- |
+|1101|1|1101|Iquique|
+|1107|1|1107|Alto Hospicio|
+|1401|1|1401|Pozo Almonte|
+|1402|1|1402|Camiña|
+|1403|1|1403|Colchane|
+|1404|1|1404|Huara|
+|1405|1|1405|Pica|
+|2101|2|2101|Antofagasta|
+|2102|2|2102|Mejillones|
+|2103|2|2103|Sierra Gorda|
+|2104|2|2104|Taltal|
+|2201|2|2201|Calama|
+|2202|2|2202|Ollagüe|
+|2203|2|2203|San Pedro de Atacama|
+|2301|2|2301|Tocopilla|
+|2302|2|2302|María Elena|
+|3101|3|3101|Copiapó|
+|3102|3|3102|Caldera|
+|3103|3|3103|Tierra Amarilla|
+|3201|3|3201|Chañaral|
+|3202|3|3202|Diego de Almagro|
+|3301|3|3301|Vallenar|
+|3302|3|3302|Alto del Carmen|
+|3303|3|3303|Freirina|
+|3304|3|3304|Huasco|
+|4101|4|4101|La Serena|
+|4102|4|4102|Coquimbo|
+|4103|4|4103|Andacollo|
+|4104|4|4104|La Higuera|
+|4105|4|4105|Paihuano|
+|4106|4|4106|Vicuña|
+|4201|4|4201|Illapel|
+|4202|4|4202|Canela|
+|4203|4|4203|Los Vilos|
+|4204|4|4204|Salamanca|
+|4301|4|4301|Ovalle|
+|4302|4|4302|Combarbalá|
+|4303|4|4303|Monte Patria|
+|4304|4|4304|Punitaqui|
+|4305|4|4305|Río Hurtado|
+|5101|5|5101|Valparaíso|
+|5102|5|5102|Casablanca|
+|5103|5|5103|Concón|
+|5104|5|5104|Juan Fernández|
+|5105|5|5105|Puchuncaví|
+|5107|5|5107|Quintero|
+|5109|5|5109|Viña del Mar|
+|5201|5|5201|Isla de Pascua|
+|5301|5|5301|Los Andes|
+|5302|5|5302|Calle Larga|
+|5303|5|5303|Rinconada|
+|5304|5|5304|San Esteban|
+|5401|5|5401|La Ligua|
+|5402|5|5402|Cabildo|
+|5403|5|5403|Papudo|
+|5404|5|5404|Petorca|
+|5405|5|5405|Zapallar|
+|5501|5|5501|Quillota|
+|5502|5|5502|La Calera|
+|5503|5|5503|Hijuelas|
+|5504|5|5504|La Cruz|
+|5506|5|5506|Nogales|
+|5601|5|5601|San Antonio|
+|5602|5|5602|Algarrobo|
+|5603|5|5603|Cartagena|
+|5604|5|5604|El Quisco|
+|5605|5|5605|El Tabo|
+|5606|5|5606|Santo Domingo|
+|5701|5|5701|San Felipe|
+|5702|5|5702|Catemu|
+|5703|5|5703|Llay Llay|
+|5704|5|5704|Panquehue|
+|5705|5|5705|Putaendo|
+|5706|5|5706|Santa María|
+|5801|5|5801|Quilpué|
+|5802|5|5802|Limache|
+|5803|5|5803|Olmué|
+|5804|5|5804|Villa Alemana|
+|6101|6|6101|Rancagua|
+|6102|6|6102|Codegua|
+|6103|6|6103|Coinco|
+|6104|6|6104|Coltauco|
+|6105|6|6105|Doñihue|
+|6106|6|6106|Graneros|
+|6107|6|6107|Las Cabras|
+|6108|6|6108|Machalí|
+|6109|6|6109|Malloa|
+|6110|6|6110|Mostazal|
+|6111|6|6111|Olivar|
+|6112|6|6112|Peumo|
+|6113|6|6113|Pichidegua|
+|6114|6|6114|Quinta de Tilcoco|
+|6115|6|6115|Rengo|
+|6116|6|6116|Requínoa|
+|6117|6|6117|San Vicente|
+|6201|6|6201|Pichilemu|
+|6202|6|6202|La Estrella|
+|6203|6|6203|Litueche|
+|6204|6|6204|Marchihue|
+|6205|6|6205|Navidad|
+|6206|6|6206|Paredones|
+|6301|6|6301|San Fernando|
+|6302|6|6302|Chépica|
+|6303|6|6303|Chimbarongo|
+|6304|6|6304|Lolol|
+|6305|6|6305|Nancagua|
+|6306|6|6306|Palmilla|
+|6307|6|6307|Peralillo|
+|6308|6|6308|Placilla|
+|6309|6|6309|Pumanque|
+|6310|6|6310|Santa Cruz|
+|7101|7|7101|Talca|
+|7102|7|7102|Constitución|
+|7103|7|7103|Curepto|
+|7104|7|7104|Empedrado|
+|7105|7|7105|Maule|
+|7106|7|7106|Pelarco|
+|7107|7|7107|Pencahue|
+|7108|7|7108|Río Claro|
+|7109|7|7109|San Clemente|
+|7110|7|7110|San Rafael|
+|7201|7|7201|Cauquenes|
+|7202|7|7202|Chanco|
+|7203|7|7203|Pelluhue|
+|7301|7|7301|Curicó|
+|7302|7|7302|Hualañé|
+|7303|7|7303|Licantén|
+|7304|7|7304|Molina|
+|7305|7|7305|Rauco|
+|7306|7|7306|Romeral|
+|7307|7|7307|Sagrada Familia|
+|7308|7|7308|Teno|
+|7309|7|7309|Vichuquén|
+|7401|7|7401|Linares|
+|7402|7|7402|Colbún|
+|7403|7|7403|Longaví|
+|7404|7|7404|Parral|
+|7405|7|7405|Retiro|
+|7406|7|7406|San Javier|
+|7407|7|7407|Villa Alegre|
+|7408|7|7408|Yerbas Buenas|
+|8101|8|8101|Concepción|
+|8102|8|8102|Coronel|
+|8103|8|8103|Chiguayante|
+|8104|8|8104|Florida|
+|8105|8|8105|Hualqui|
+|8106|8|8106|Lota|
+|8107|8|8107|Penco|
+|8108|8|8108|San Pedro de la Paz|
+|8109|8|8109|Santa Juana|
+|8110|8|8110|Talcahuano|
+|8111|8|8111|Tomé|
+|8112|8|8112|Hualpén|
+|8201|8|8201|Lebu|
+|8202|8|8202|Arauco|
+|8203|8|8203|Cañete|
+|8204|8|8204|Contulmo|
+|8205|8|8205|Curanilahue|
+|8206|8|8206|Los Álamos|
+|8207|8|8207|Tirúa|
+|8301|8|8301|Los Ángeles|
+|8302|8|8302|Antuco|
+|8303|8|8303|Cabrero|
+|8304|8|8304|Laja|
+|8305|8|8305|Mulchén|
+|8306|8|8306|Nacimiento|
+|8307|8|8307|Negrete|
+|8308|8|8308|Quilaco|
+|8309|8|8309|Quilleco|
+|8310|8|8310|San Rosendo|
+|8311|8|8311|Santa Bárbara|
+|8312|8|8312|Tucapel|
+|8313|8|8313|Yumbel|
+|8314|8|8314|Alto Biobío|
+|8401|8|8401|Chillán|
+|8402|8|8402|Bulnes|
+|8403|8|8403|Cobquecura|
+|8404|8|8404|Coelemu|
+|8405|8|8405|Coihueco|
+|8406|8|8406|Chillán Viejo|
+|8407|8|8407|El Carmen|
+|8408|8|8408|Ninhue|
+|8409|8|8409|Ñiquén|
+|8410|8|8410|Pemuco|
+|8411|8|8411|Pinto|
+|8412|8|8412|Portezuelo|
+|8413|8|8413|Quillón|
+|8414|8|8414|Quirihue|
+|8415|8|8415|Ránquil|
+|8416|8|8416|San Carlos|
+|8417|8|8417|San Fabián|
+|8418|8|8418|San Ignacio|
+|8419|8|8419|San Nicolás|
+|8420|8|8420|Treguaco|
+|8421|8|8421|Yungay|
+|9101|9|9101|Temuco|
+|9102|9|9102|Carahue|
+|9103|9|9103|Cunco|
+|9104|9|9104|Curarrehue|
+|9105|9|9105|Freire|
+|9106|9|9106|Galvarino|
+|9107|9|9107|Gorbea|
+|9108|9|9108|Lautaro|
+|9109|9|9109|Loncoche|
+|9110|9|9110|Melipeuco|
+|9111|9|9111|Nueva Imperial|
+|9112|9|9112|Padre las Casas|
+|9113|9|9113|Perquenco|
+|9114|9|9114|Pitrufquén|
+|9115|9|9115|Pucón|
+|9116|9|9116|Saavedra|
+|9117|9|9117|Teodoro Schmidt|
+|9118|9|9118|Toltén|
+|9119|9|9119|Vilcún|
+|9120|9|9120|Villarrica|
+|9121|9|9121|Cholchol|
+|9201|9|9201|Angol|
+|9202|9|9202|Collipulli|
+|9203|9|9203|Curacautín|
+|9204|9|9204|Ercilla|
+|9205|9|9205|Lonquimay|
+|9206|9|9206|Los Sauces|
+|9207|9|9207|Lumaco|
+|9208|9|9208|Purén|
+|9209|9|9209|Renaico|
+|9210|9|9210|Traiguén|
+|9211|9|9211|Victoria|
+|10101|10|10101|Puerto Montt|
+|10102|10|10102|Calbuco|
+|10103|10|10103|Cochamó|
+|10104|10|10104|Fresia|
+|10105|10|10105|Frutillar|
+|10106|10|10106|Los Muermos|
+|10107|10|10107|Llanquihue|
+|10108|10|10108|Maullín|
+|10109|10|10109|Puerto Varas|
+|10201|10|10201|Castro|
+|10202|10|10202|Ancud|
+|10203|10|10203|Chonchi|
+|10204|10|10204|Curaco de Vélez|
+|10205|10|10205|Dalcahue|
+|10206|10|10206|Puqueldón|
+|10207|10|10207|Queilén|
+|10208|10|10208|Quellón|
+|10209|10|10209|Quemchi|
+|10210|10|10210|Quinchao|
+|10301|10|10301|Osorno|
+|10302|10|10302|Puerto Octay|
+|10303|10|10303|Purranque|
+|10304|10|10304|Puyehue|
+|10305|10|10305|Río Negro|
+|10306|10|10306|San Juan de la Costa|
+|10307|10|10307|San Pablo|
+|10401|10|10401|Chaitén|
+|10402|10|10402|Futaleufú|
+|10403|10|10403|Hualaihué|
+|10404|10|10404|Palena|
+|11101|11|11101|Coyhaique|
+|11102|11|11102|Lago Verde|
+|11201|11|11201|Aysén|
+|11202|11|11202|Cisnes|
+|11203|11|11203|Guaitecas|
+|11301|11|11301|Cochrane|
+|11302|11|11302|O'Higgins|
+|11303|11|11303|Tortel|
+|11401|11|11401|Chile Chico|
+|11402|11|11402|Río Ibáñez|
+|12101|12|12101|Punta Arenas|
+|12102|12|12102|Laguna Blanca|
+|12103|12|12103|Río Verde|
+|12104|12|12104|San Gregorio|
+|12201|12|12201|Cabo de Hornos|
+|12202|12|12202|Antártica|
+|12301|12|12301|Porvenir|
+|12302|12|12302|Primavera|
+|12303|12|12303|Timaukel|
+|12401|12|12401|Natales|
+|12402|12|12402|Torres del Paine|
+|13101|13|13101|Santiago|
+|13102|13|13102|Cerrillos|
+|13103|13|13103|Cerro Navia|
+|13104|13|13104|Conchalí|
+|13105|13|13105|El Bosque|
+|13106|13|13106|Estación Central|
+|13107|13|13107|Huechuraba|
+|13108|13|13108|Independencia|
+|13109|13|13109|La Cisterna|
+|13110|13|13110|La Florida|
+|13111|13|13111|La Granja|
+|13112|13|13112|La Pintana|
+|13113|13|13113|La Reina|
+|13114|13|13114|Las Condes|
+|13115|13|13115|Lo Barnechea|
+|13116|13|13116|Lo Espejo|
+|13117|13|13117|Lo Prado|
+|13118|13|13118|Macul|
+|13119|13|13119|Maipú|
+|13120|13|13120|Ñuñoa|
+|13121|13|13121|Pedro Aguirre Cerda|
+|13122|13|13122|Peñalolén|
+|13123|13|13123|Providencia|
+|13124|13|13124|Pudahuel|
+|13125|13|13125|Quilicura|
+|13126|13|13126|Quinta Normal|
+|13127|13|13127|Recoleta|
+|13128|13|13128|Renca|
+|13129|13|13129|San Joaquín|
+|13130|13|13130|San Miguel|
+|13131|13|13131|San Ramón|
+|13132|13|13132|Vitacura|
+|13201|13|13201|Puente Alto|
+|13202|13|13202|Pirque|
+|13203|13|13203|San José de Maipo|
+|13301|13|13301|Colina|
+|13302|13|13302|Lampa|
+|13303|13|13303|Tiltil|
+|13401|13|13401|San Bernardo|
+|13402|13|13402|Buin|
+|13403|13|13403|Calera de Tango|
+|13404|13|13404|Paine|
+|13501|13|13501|Melipilla|
+|13502|13|13502|Alhué|
+|13503|13|13503|Curacaví|
+|13504|13|13504|María Pinto|
+|13505|13|13505|San Pedro|
+|13601|13|13601|Talagante|
+|13602|13|13602|El Monte|
+|13603|13|13603|Isla de Maipo|
+|13604|13|13604|Padre Hurtado|
+|13605|13|13605|Peñaflor|
+|14101|14|14101|Valdivia|
+|14102|14|14102|Corral|
+|14103|14|14103|Lanco|
+|14104|14|14104|Los Lagos|
+|14105|14|14105|Máfil|
+|14106|14|14106|Mariquina|
+|14107|14|14107|Paillaco|
+|14108|14|14108|Panguipulli|
+|14201|14|14201|La Unión|
+|14202|14|14202|Futrono|
+|14203|14|14203|Lago Ranco|
+|14204|14|14204|Río Bueno|
+|15101|15|15101|Arica|
+|15102|15|15102|Camarones|
+|15201|15|15201|Putre|
